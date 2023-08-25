@@ -1,0 +1,59 @@
+{
+  "name": "Odoo 14",
+
+  "dockerComposeFile": ["docker-compose.yml"],
+
+  "service": "app",
+
+  "workspaceFolder": "/usr/lib/python3/dist-packages/odoo",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": true,
+      "configureZshAsDefaultShell": true,
+      "installOhMyZsh": true,
+      "username": "odoo"
+    }
+  },
+  "postCreateCommand": "zsh ${workspaceFolder}/.devcontainer/finish.sh",
+
+  "shutdownAction": "stopCompose",
+
+
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.pythonPath": "/usr/lib/python3",
+        "git.ignoreLimitWarning": true,
+        "python.autoComplete.extraPaths": [
+          "${workspaceFolder}/addons",
+          "${workspaceFolder}/extra-addons"
+        ],
+        "python.linting.enabled": true,
+        "python.linting.pylintArgs": ["--load-plugins", "pylint_odoo"],
+        "python.formatting.provider": "yapf",
+        "python.linting.pep8Enabled": true,
+        "files.autoSave": "off",
+        "files.exclude": {
+          "**/.git": true,
+          "**/.svn": true,
+          "**/.hg": true,
+          "**/CVS": true,
+          "**/.DS_Store": true,
+          "**/*.pyc": true
+        },
+        "[python]": {
+          "editor.formatOnType": true,
+          "editor.defaultFormatter": "ms-python.autopep8"
+        }
+      },
+      "extensions": [
+        "ms-python.python",
+        "trinhanhngoc.vscode-odoo",
+        "ms-python.autopep8",
+        "ms-python.vscode-pylance",
+        "redhat.vscode-xml"
+      ]
+      
+    }
+  }
+}
