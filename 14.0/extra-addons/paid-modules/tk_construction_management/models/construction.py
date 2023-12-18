@@ -49,7 +49,7 @@ class ConstructionDetails(models.Model):
 
     # One2Many
     equipment_ids = fields.One2many('construction.equipment', 'construction_id', string="Equipments")
-    material_ids = fields.One2many('construction.material', 'construction_id', string="Material")
+    material_ids = fields.One2many('product.template', 'construction_id', string="Material")
     construction_engineer_ids = fields.One2many('construction.engineer.line', 'construction_id', string="Engineers")
     total_engineer_charges = fields.Monetary(string="Total Charges", compute="_compute_engineer_charges")
     document_ids = fields.One2many('construction.document.line', 'construction_id')
@@ -638,7 +638,7 @@ class ConstructionDetails(models.Model):
 
 
 class EquipmentDetails(models.Model):
-    _inherit = 'product.product'
+    _inherit = 'product.template'
 
     is_equipment = fields.Boolean(string="Is Equipment")
     is_material = fields.Boolean(string="Is Material")
@@ -676,7 +676,7 @@ class ConstructionEquipmentLine(models.Model):
     _name = 'construction.equipment.line'
     _description = 'Construction Equipment Line'
 
-    equipment_id = fields.Many2one('product.product', string="Equipment",
+    equipment_id = fields.Many2one('product.template', string="Equipment",
                                    domain="[('type','=','product'),('is_equipment','=',True)]")
     company_id = fields.Many2one('res.company', string='Company', default=lambda self: self.env.company)
     currency_id = fields.Many2one('res.currency', related='company_id.currency_id', string='Currency')
@@ -691,7 +691,7 @@ class ConstructionEquipmentLine(models.Model):
 
 
 class ConstructionMaterial(models.Model):
-    _name = 'construction.material'
+    _inherit = 'product.template'
     _description = 'Construction Material'
 
     name = fields.Char(string="Title")
@@ -722,14 +722,14 @@ class ConstructionMaterialLine(models.Model):
     _name = "construction.material.line"
     _description = "Construction Material Line"
 
-    material_id = fields.Many2one('product.product', string="Material",
+    material_id = fields.Many2one('product.template', string="Material",
                                   domain="[('type','=','product'),('is_material','=',True)]")
     company_id = fields.Many2one('res.company', string='Company', default=lambda self: self.env.company)
     currency_id = fields.Many2one('res.currency', related='company_id.currency_id', string='Currency')
     qty = fields.Integer(string="Qty.", default=1)
     cost = fields.Float(related="material_id.lst_price", string="Cost", store=True)
     total_cost = fields.Monetary(string="Total Cost", compute="_compute_total_cost", store=True)
-    construction_material_id = fields.Many2one('construction.material', string="Construction")
+    construction_material_id = fields.Many2one('product.template', string="Construction")
     uom_id = fields.Many2one(related="material_id.uom_po_id", string="Unit of Measure")
 
     @api.depends('material_id', 'qty', 'cost')
@@ -879,7 +879,7 @@ class ConstructionExpense(models.Model):
     _description = "Construction Expense"
     _rec_name = "expense_product_id"
 
-    expense_product_id = fields.Many2one('product.product', string="Expense",
+    expense_product_id = fields.Many2one('product.template', string="Expense",
                                          domain="[('is_expense_product','=',True),('type','=','service')]")
     date = fields.Date(string="Date", default=fields.Date.today())
     note = fields.Char(string="Note")
@@ -1070,7 +1070,7 @@ class ScrapOrderLine(models.Model):
     _description = "Scrap Order Line"
 
     scrap_type = fields.Selection([('material', 'Material'), ('equipment', 'Equipment')], string="Scrap of")
-    product_id = fields.Many2one("product.product", string="Product")
+    product_id = fields.Many2one("product.template", string="Product")
     qty = fields.Integer(string="Qty.")
     company_id = fields.Many2one('res.company', string='Company', default=lambda self: self.env.company)
     currency_id = fields.Many2one('res.currency', related='company_id.currency_id', string='Currency')
@@ -1081,7 +1081,7 @@ class ScrapOrderLine(models.Model):
     @api.onchange('scrap_type')
     def filter_materia_equipment(self):
         construction_id = self._context.get('construction_id')
-        site_material_record = self.env['construction.material'].search(
+        site_material_record = self.env['product.template'].search(
             [('construction_id', '=', construction_id)]).mapped('id')
         material_record = self.env['construction.material.line'].search(
             [('construction_material_id', 'in', site_material_record)]).mapped('material_id').mapped('id')

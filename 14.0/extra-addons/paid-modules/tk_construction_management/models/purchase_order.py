@@ -9,7 +9,7 @@ class ConstructionPo(models.Model):
 
     construction_id = fields.Many2one('construction.details', string='Construction')
     order_type = fields.Selection([('equipment', 'Equipment'), ('material', 'Material')], string="Order Type")
-    material_id = fields.Many2one('construction.material', string='Material')
+    material_id = fields.Many2one('product.template', string='Material')
     equipment_id = fields.Many2one('construction.equipment', string='Equipment')
 
     def _prepare_invoice(self):

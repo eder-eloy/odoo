@@ -141,7 +141,7 @@ class CostMaterialLine(models.Model):
     _name = "cost.material.line"
     _description = "Job Costing Material Line"
 
-    material_id = fields.Many2one('product.product', string="Material",
+    material_id = fields.Many2one('product.template', string="Material",
                                   domain="[('type','=','product'),('is_material','=',True)]")
     company_id = fields.Many2one('res.company', string='Company', default=lambda self: self.env.company)
     currency_id = fields.Many2one('res.currency', related='company_id.currency_id', string='Currency')
@@ -165,7 +165,7 @@ class CostEquipmentLine(models.Model):
     _description = "Job Costing Equipment Line"
     _rec_name = 'equipment_id'
 
-    equipment_id = fields.Many2one('product.product', string="Equipment",
+    equipment_id = fields.Many2one('product.template', string="Equipment",
                                    domain="[('type','=','product'),('is_equipment','=',True)]")
     company_id = fields.Many2one('res.company', string='Company', default=lambda self: self.env.company)
     currency_id = fields.Many2one('res.currency', related='company_id.currency_id', string='Currency')

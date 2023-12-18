@@ -23,13 +23,15 @@
     'support': "info@techkhedut.com",
     'category': 'Industry',
     'depends': ['base','contacts', 'account', 'sale_management', 'purchase', 'hr', 'project', 'calendar', 'stock', 'mail',
-                'hr_timesheet'],
+                'hr_timesheet','l10n_br_fiscal','l10n_br_coa_generic'],
     'data': [
         # security
         'security/ir.model.access.csv',
         # Data
         'data/sequence.xml',
         'data/construction_data.xml',
+        'data/construction_material_category.xml',
+        'data/constructon_material_products.xml',
         # Wizard Views
         'wizard/construction_inspection_view.xml',
         # Views

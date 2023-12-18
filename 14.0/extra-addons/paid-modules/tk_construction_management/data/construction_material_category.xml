@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data noupdate="1">
+    
+        <!-- Categorias de Materiais -->
+        <record id="categoria_concretagem" model="product.category">
+            <field name="name">Concretagem</field>
+            <field name="property_cost_method">standard</field>
+            <field name="property_valuation">real_time</field>
+        </record>
+
+        <record id="categoria_vigas" model="product.category">
+            <field name="name">Vigas</field>
+            <field name="property_cost_method">standard</field>
+            <field name="property_valuation">real_time</field>
+        </record>
+
+        <record id="categoria_aco_e_derivados" model="product.category">
+            <field name="name">Aço e Derivados</field>
+            <field name="property_cost_method">standard</field>
+            <field name="property_valuation">real_time</field>
+        </record>
+
+        <record id="categoria_madeiras" model="product.category">
+            <field name="name">Madeiras</field>
+            <field name="property_cost_method">standard</field>
+            <field name="property_valuation">real_time</field>
+        </record>
+
+        <record id="categoria_pedras" model="product.category">
+            <field name="name">Pedras</field>
+            <field name="property_cost_method">standard</field>
+            <field name="property_valuation">real_time</field>
+        </record>
+
+        <record id="categoria_pregos" model="product.category">
+            <field name="name">Pregos</field>
+            <field name="property_cost_method">standard</field>
+            <field name="property_valuation">real_time</field>
+        </record>
+
+        <record id="categoria_porcas" model="product.category">
+            <field name="name">Porcas</field>
+            <field name="property_cost_method">standard</field>
+            <field name="property_valuation">real_time</field>
+        </record>
+
+        <record id="categoria_parafusos" model="product.category">
+            <field name="name">Parafusos</field>
+            <field name="property_cost_method">standard</field>
+            <field name="property_valuation">real_time</field>
+        </record>
+
+        <record id="categoria_ceramicas" model="product.category">
+            <field name="name">Cerâmicas</field>
+            <field name="property_cost_method">standard</field>
+            <field name="property_valuation">real_time</field>
+        </record>
+
+        <record id="categoria_areias" model="product.category">
+            <field name="name">Areias</field>
+            <field name="property_cost_method">standard</field>
+            <field name="property_valuation">real_time</field>
+        </record>
+
+        <record id="categoria_cal" model="product.category">
+            <field name="name">Cal</field>
+            <field name="property_cost_method">standard</field>
+            <field name="property_valuation">real_time</field>
+        </record>
+
+        <record id="categoria_tijolos" model="product.category">
+            <field name="name">Tijolos</field>
+            <field name="property_cost_method">standard</field>
+            <field name="property_valuation">real_time</field>
+        </record>
+    
+    </data>
+    
+
+</odoo>

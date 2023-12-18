@@ -1,0 +1,2941 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* tk_construction_management
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0-20231106\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-18 01:01+0000\n"
+"PO-Revision-Date: 2023-12-18 01:01+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: tk_construction_management
+#: model:ir.actions.report,print_report_name:tk_construction_management.construction_job_costing_report_id
+#: model:ir.actions.report,print_report_name:tk_construction_management.construction_site_details_report_id
+msgid "'%s' %(object.name)"
+msgstr "'%s' %(object.name)"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_form_view
+msgid "965-8569-874"
+msgstr "965-8569-874"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.job_costing_form_view
+msgid ""
+"<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"Arrow icon\" "
+"title=\"Arrow\"/>"
+msgstr ""
+"<i class=\"fa fa-long-arrow-right mx-2\" aria-label=\"Ícone de seta\" "
+"title=\"arrow\"/>"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.job_costing_form_view
+msgid ""
+"<span class=\"o_form_label o_td_label\" name=\"address_name\">\n"
+"                                    <b>Address</b>\n"
+"                                </span>"
+msgstr ""
+"<span class=\"o_form_label o_td_label\" name=\"address_name\">\n"
+"                                    <b>Endereço</b>\n"
+"                                </span>"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid ""
+"<strong>\n"
+"                                                                Cost\n"
+"                                                            </strong>"
+msgstr ""
+"<strong>\n"
+"                                                                Custo\n"
+"                                                            </strong>"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid ""
+"<strong>\n"
+"                                                                Equipment\n"
+"                                                            </strong>"
+msgstr ""
+"<strong>\n"
+"                                                                Equipamento\n"
+"                                                            </strong>"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid ""
+"<strong>\n"
+"                                                                Labours\n"
+"                                                            </strong>\n"
+"                                                            <br/>"
+msgstr ""
+"<strong>\n"
+"                                                                Funcionários\n"
+"                                                            </strong>\n"
+"                                                            <br/>"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid ""
+"<strong>\n"
+"                                                                Material\n"
+"                                                            </strong>"
+msgstr ""
+"<strong>\n"
+"                                                                Materiais\n"
+"                                                            </strong>"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid ""
+"<strong>\n"
+"                                                                Qty.\n"
+"                                                            </strong>"
+msgstr ""
+"<strong>\n"
+"                                                                Qtd.\n"
+"                                                            </strong>"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid ""
+"<strong>\n"
+"                                                                Total Cost\n"
+"                                                            </strong>"
+msgstr ""
+"<strong>\n"
+"                                                                Custo Total\n"
+"                                                            </strong>"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid ""
+"<strong>\n"
+"                                                                Type\n"
+"                                                            </strong>"
+msgstr ""
+"<strong>\n"
+"                                                                Tipo\n"
+"                                                            </strong>"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid ""
+"<strong>\n"
+"                                                                Unit of Measure\n"
+"                                                            </strong>"
+msgstr ""
+"<strong>\n"
+"                                                                Unidade de Medida\n"
+"                                                            </strong>"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_job_costing_qweb_report
+msgid ""
+"<strong>\n"
+"                                        Project Estimation\n"
+"                                    </strong>"
+msgstr ""
+"<forte>\n"
+"                                        Estimativa de Projeto\n"
+"                                    </strong>"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_form_view
+msgid "<strong>Amenities</strong>"
+msgstr "<strong>Comodidades</strong>"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "<strong>Assign Date</strong>"
+msgstr "<strong>Atribuir data</strong>"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "<strong>Assignee</strong>"
+msgstr "<strong>Cessionário</strong>"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "<strong>Charge</strong>"
+msgstr "<strong>Cobrar</strong>"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "<strong>Date</strong>"
+msgstr "<strong>Data</strong>"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "<strong>Deadline</strong>"
+msgstr "<strong>Prazo</strong>"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "<strong>Issue Date</strong>"
+msgstr "<strong>Data de emissão</strong>"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "<strong>Issued By</strong>"
+msgstr "<strong>Emitido por</strong>"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "<strong>Labours</strong>"
+msgstr "<strong>Trabalho</strong>"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "<strong>Name</strong>"
+msgstr "<strong>Nome</strong>"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "<strong>Note</strong>"
+msgstr "<strong>Nota</strong>"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "<strong>Policy Name</strong>"
+msgstr "<strong>Nome da política</strong>"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "<strong>Policy No.</strong>"
+msgstr "<strong>Número da política</strong>"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "<strong>Product</strong>"
+msgstr "<strong>Produto</strong>"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.job_costing_form_view
+msgid "<strong>Project Estimation</strong>"
+msgstr "<strong>Estimativa do projeto</strong>"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "<strong>Qty.</strong>"
+msgstr "<strong>Qtd.</strong>"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "<strong>Risk Covered</strong>"
+msgstr "<strong>Risco coberto</strong>"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "<strong>Risk For</strong>"
+msgstr "<strong>Risco para</strong>"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "<strong>Scrap of</strong>"
+msgstr "<strong>Sucata de</strong>"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "<strong>Stage</strong>"
+msgstr "<strong>Palco</strong>"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "<strong>Total Value</strong>"
+msgstr "<strong>Valor total</strong>"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "<strong>Value</strong>"
+msgstr "<strong>Valor</strong>"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__accountancy_type
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Accountancy"
+msgstr "Contabilidade"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__message_needaction
+msgid "Action Needed"
+msgstr "Ação necessária"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__activity_ids
+msgid "Activities"
+msgstr "Atividades"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_kanban_view
+msgid "Activity"
+msgstr "Atividade"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Decoração de exceção de atividade"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__activity_state
+msgid "Activity State"
+msgstr "Estado da atividade"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Ícone de tipo de atividade"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_job_costing_qweb_report
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_form_view
+msgid "Address"
+msgstr "Endereço"
+
+#. module: tk_construction_management
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__construction_details__accountancy_type__all_bill
+msgid "All Bills"
+msgstr "Todas as contas"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "All Purchase Order will be directed to the Company(Customer)"
+msgstr "Todos os pedidos de compra serão direcionados à Empresa (Cliente)"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid ""
+"All the labours and workers related accounting forwarding to Labour\n"
+"                                                    Responsible"
+msgstr ""
+"Todos os trabalhos e trabalhadores relacionados com encaminhamento contábil para Trabalhista\n"
+"                                                    Responsável"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_site__amenities_ids
+#: model:ir.ui.menu,name:tk_construction_management.menu_construction_amenities
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_form_view
+msgid "Amenities"
+msgstr "Facilidades"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Amount to Pay"
+msgstr "Valor a pagar"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__is_approved_document
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__construction_document_line__state__approved
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Approved"
+msgstr "Aprovado"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Approx Cost"
+msgstr "Custo aproximado"
+
+#. module: tk_construction_management
+#: model:product.template,name:tk_construction_management.arame_recozido_bwg_18_1_24_mm
+msgid "Arame recozido BWG 18 (1,24mm)"
+msgstr "Arame recozido BWG 18 (1,24mm)"
+
+#. module: tk_construction_management
+#: model:ir.actions.act_window,name:tk_construction_management.employee_architect_action
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__res_partner__employee_type__architect
+#: model:ir.ui.menu,name:tk_construction_management.menu_construction_architect
+msgid "Architect"
+msgstr "Arquiteto"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "Area Plot(sqft.)"
+msgstr "Lote de área (pés quadrados)"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__area_plot
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing__area_plot
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.job_costing_form_view
+msgid "Area of Plot"
+msgstr "Área do Lote"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.job_costing_form_view
+msgid "Area of Plot(sq ft.)"
+msgstr "Área do lote (pés quadrados)"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_job_costing_qweb_report
+msgid "Area(sqft)"
+msgstr "Área (m²)"
+
+#. module: tk_construction_management
+#: model:product.template,name:tk_construction_management.areia_media
+msgid "Areia Média"
+msgstr "Areia Média"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Assign Inspection Task"
+msgstr "Atribuir tarefa de inspeção"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_inspection__user_ids
+msgid "Assignee"
+msgstr "Cessionário"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__message_attachment_count
+msgid "Attachment Count"
+msgstr "Contagem de anexos"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_form_view
+msgid "Avatar"
+msgstr "avatar"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_form_view
+msgid "Avtar"
+msgstr "Declinante"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_account_bank_statement_line__order_type
+#: model:ir.model.fields,field_description:tk_construction_management.field_account_move__order_type
+#: model:ir.model.fields,field_description:tk_construction_management.field_account_payment__order_type
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_expense__expense_bill_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_labour_line__labour_bill_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_engineer_invoice_line__eng_arc_bill_id
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "Bill"
+msgstr "Conta"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_kanban_view
+msgid "Budget :"
+msgstr "Orçamento :"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Budget Amount"
+msgstr "Montante do orçamento"
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_calendar_event
+msgid "Calendar Event"
+msgstr "Evento Calendário"
+
+#. module: tk_construction_management
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__construction_details__stage__cancel
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__job_costing__state__cancel
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_inspection_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.job_costing_form_view
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_site__catalog_ids
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_form_view
+msgid "Catalog"
+msgstr "Catálogo"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_site__catalog_count
+msgid "Catalog Count"
+msgstr "Contagem de catálogo"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_site__certificate_ids
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_form_view
+msgid "Certificate"
+msgstr "Certificado"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_site__certificate_count
+msgid "Certificate Count"
+msgstr "Contagem de certificados"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_hr_employee__charges
+msgid "Charge"
+msgstr "Cobrar"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_engineer_line__charges
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_employee_line__cost
+#: model:ir.model.fields,field_description:tk_construction_management.field_engineer_invoice_line__charges
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_job_costing_qweb_report
+msgid "Charges"
+msgstr "Cobranças"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Charges & Payment"
+msgstr "Encargos e Pagamento"
+
+#. module: tk_construction_management
+#: model:product.template,name:tk_construction_management.cimento_cp_03
+msgid "Cimento CP III"
+msgstr "Cimento CP III"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__city
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_site__city
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing__city
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.job_costing_form_view
+msgid "City"
+msgstr "Cidade"
+
+#. module: tk_construction_management
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__construction_details__stage__close
+msgid "Close"
+msgstr "Fechar"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Close Project"
+msgstr "Fechar projeto"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_project_task__color
+msgid "Color"
+msgstr "Cor"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_hr_employee__color
+msgid "Color Index"
+msgstr "Índice de Cores"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__company_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_engineer_line__company_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_equipment__company_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_equipment_line__company_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_expense__company_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_labour_line__company_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_material_line__company_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_risk__company_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_employee_line__company_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_equipment_line__company_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_material_line__company_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_engineer_invoice_line__company_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_hr_employee__company_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing__company_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_product_product__company_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_product_template__company_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_scrap_order__company_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_scrap_order_line__company_id
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "Company"
+msgstr "Empresa"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__customer_company_id
+msgid "Company "
+msgstr "Empresa"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_project_project__image
+msgid "Company Logo"
+msgstr "Logotipo da empresa"
+
+#. module: tk_construction_management
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__construction_details__stage__done
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Complete"
+msgstr "Completo"
+
+#. module: tk_construction_management
+#: model:product.template,name:tk_construction_management.concreto_usinado_para_laje
+msgid "Concreto Usinado para Laje"
+msgstr "Concreto Usinado para Laje"
+
+#. module: tk_construction_management
+#: model:ir.ui.menu,name:tk_construction_management.menu_configuration
+msgid "Configuration"
+msgstr "Configuração"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_account_bank_statement_line__construction_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_account_move__construction_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_account_payment__construction_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_calendar_event__construction_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_document_line__construction_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_engineer_line__construction_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_equipment__construction_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_equipment_line__construction_equip_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_expense__construction_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_inspection__construction_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_labour_line__construction_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_material_line__construction_material_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_risk__construction_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_product_product__construction_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_product_template__construction_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_project_project__construction_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_project_task__construction_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_purchase_order__construction_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_site_inspection__construction_id
+msgid "Construction"
+msgstr "Construção"
+
+#. module: tk_construction_management
+#: model:ir.actions.act_window,name:tk_construction_management.construction_amenities_action
+msgid "Construction Amenities"
+msgstr "Comodidades de construção"
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_construction_catalog
+msgid "Construction Catalog"
+msgstr "Catálogo de Construção"
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_construction_certificate
+msgid "Construction Certificate"
+msgstr "Certificado de Construção"
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_construction_dashboard
+msgid "Construction Dashboard"
+msgstr "Painel de construção"
+
+#. module: tk_construction_management
+#: model:ir.actions.act_window,name:tk_construction_management.construction_details_action
+#: model:ir.model,name:tk_construction_management.model_construction_details
+msgid "Construction Details"
+msgstr "Detalhes de construção"
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_construction_document_line
+msgid "Construction Document Line"
+msgstr "Linha de Documentos de Construção"
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_construction_employee
+msgid "Construction Employee"
+msgstr "Funcionário da Construção"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_engineer_invoice_line__construction_engineer_id
+msgid "Construction Engineer"
+msgstr "Engenheiro civil"
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_construction_engineer_line
+msgid "Construction Engineer Line"
+msgstr "Linha de Engenheiro de Construção"
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_construction_equipment
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_equipment__construction_equipment_ids
+msgid "Construction Equipment"
+msgstr "Equipamento de construção"
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_construction_equipment_line
+msgid "Construction Equipment Line"
+msgstr "Linha de Equipamentos de Construção"
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_construction_expense
+msgid "Construction Expense"
+msgstr "Despesa de Construção"
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_construction_images
+msgid "Construction Images"
+msgstr "Imagens de construção"
+
+#. module: tk_construction_management
+#: model:ir.actions.act_window,name:tk_construction_management.construction_inspection_action
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__construction_inspection_ids
+msgid "Construction Inspection"
+msgstr "Inspeção de Construção"
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_construction_inspection
+msgid "Construction Inspection "
+msgstr "Inspeção de Construção"
+
+#. module: tk_construction_management
+#: model:product.template,name:tk_construction_management.construction_product_3
+msgid "Construction Insurance"
+msgstr "Seguro de Construção"
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_construction_job
+msgid "Construction Job Type"
+msgstr "Tipo de trabalho de construção"
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_construction_labour_line
+msgid "Construction Labour Line"
+msgstr "Linha de mão de obra de construção"
+
+#. module: tk_construction_management
+#: model:ir.actions.client,name:tk_construction_management.action_construction_dashboard
+#: model:ir.ui.menu,name:tk_construction_management.menu_construction_root
+msgid "Construction Management"
+msgstr "Gestão de Construção"
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_product_template
+msgid "Construction Material"
+msgstr "Material de construção"
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_construction_material_line
+msgid "Construction Material Line"
+msgstr "Linha de Materiais de Construção"
+
+#. module: tk_construction_management
+#: model:ir.actions.act_window,name:tk_construction_management.construction_meeting_action
+#: model:ir.model.fields,field_description:tk_construction_management.field_calendar_event__is_construction_meeting
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__construction_meeting_ids
+msgid "Construction Meeting"
+msgstr "Reunião de Construção"
+
+#. module: tk_construction_management
+#: model:ir.ui.menu,name:tk_construction_management.menu_construction_site
+#: model:ir.ui.menu,name:tk_construction_management.menu_construction_site_project
+msgid "Construction Project"
+msgstr "Projeto de construção"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__construction_rate
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing__construction_rate
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "Construction Rate"
+msgstr "Taxa de construção"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.job_costing_form_view
+msgid "Construction Rate per sq ft."
+msgstr "Taxa de construção por pé quadrado."
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_construction_risk
+msgid "Construction Risk"
+msgstr "Risco de construção"
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_scrap_order
+msgid "Construction Scrap Order"
+msgstr "Pedido de sucata de construção"
+
+#. module: tk_construction_management
+#: model:ir.actions.act_window,name:tk_construction_management.construction_site_action
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing__site_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_scrap_order__construction_id
+#: model:ir.ui.menu,name:tk_construction_management.construction_details_menu
+msgid "Construction Site"
+msgstr "Local de construção"
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_construction_site
+msgid "Construction Site Details"
+msgstr "Detalhes do canteiro de obras"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_project_task_type__is_construction_stages
+msgid "Construction Stage"
+msgstr "Estágio de construção"
+
+#. module: tk_construction_management
+#: model:ir.ui.menu,name:tk_construction_management.menu_construction_tools
+msgid "Construction Tools"
+msgstr "Ferramentas de construção"
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_res_partner
+msgid "Contact"
+msgstr "Contato"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_form_view
+msgid "Contact Details"
+msgstr "Detalhes do contato"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_form_view
+msgid "Contact image"
+msgstr "Imagem de contato"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_expense__cost
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_material_line__cost
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_material_line__cost
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_job_costing_qweb_report
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "Cost"
+msgstr "Custo"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "Cost Of Construction"
+msgstr "Custo de construção"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__cost_of_construction
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing__cost_of_construction
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.job_costing_form_view
+msgid "Cost of Construction"
+msgstr "Custo de construção"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_material_line__job_costing_id
+msgid "Costing"
+msgstr "Custeio"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__country_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_site__country_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing__country_id
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.job_costing_form_view
+msgid "Country"
+msgstr "País"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Create Bill"
+msgstr "Criar fatura"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Create Engineer & Architect Bill"
+msgstr "Criar projeto de lei para engenheiro e arquiteto"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Create Equipment Purchase Order"
+msgstr "Criar pedido de compra de equipamento"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Create Invoice"
+msgstr "Criar recibo"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.job_costing_form_view
+msgid "Create Job Order"
+msgstr "Criar ordem de trabalho"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Create Labours Bill"
+msgstr "Criar projeto de lei trabalhista"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Create Material Purchase Order"
+msgstr "Criar pedido de compra de material"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_inspection_form_view
+msgid "Create Task"
+msgstr "Criar tarefa"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_amenities__create_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_catalog__create_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_certificate__create_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_dashboard__create_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__create_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_document_line__create_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_employee__create_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_engineer_line__create_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_equipment__create_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_equipment_line__create_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_expense__create_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_images__create_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_inspection__create_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_job__create_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_labour_line__create_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_material_line__create_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_risk__create_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_site__create_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_employee_line__create_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_equipment_line__create_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_material_line__create_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_document_template__create_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_document_template_line__create_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_document_type__create_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_engineer_invoice_line__create_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing__create_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_policy_risk__create_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_scrap_order__create_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_scrap_order_line__create_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_site_inspection__create_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_site_type__create_uid
+msgid "Created by"
+msgstr "Criado por"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_amenities__create_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_catalog__create_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_certificate__create_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_dashboard__create_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__create_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_document_line__create_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_employee__create_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_engineer_line__create_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_equipment__create_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_equipment_line__create_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_expense__create_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_images__create_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_inspection__create_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_job__create_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_labour_line__create_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_material_line__create_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_risk__create_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_site__create_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_employee_line__create_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_equipment_line__create_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_material_line__create_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_document_template__create_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_document_template_line__create_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_document_type__create_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_engineer_invoice_line__create_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing__create_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_policy_risk__create_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_scrap_order__create_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_scrap_order_line__create_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_site_inspection__create_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_site_type__create_date
+msgid "Created on"
+msgstr "Criado em"
+
+#. module: tk_construction_management
+#: model_terms:ir.actions.act_window,help:tk_construction_management.construction_site_action
+msgid "Crete Construction Site."
+msgstr "Canteiro de obras de Creta."
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__currency_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_engineer_line__currency_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_equipment__currency_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_equipment_line__currency_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_expense__currency_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_labour_line__currency_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_material_line__currency_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_risk__currency_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_employee_line__currency_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_equipment_line__currency_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_material_line__currency_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_engineer_invoice_line__currency_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_hr_employee__currency_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing__currency_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_product_product__currency_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_product_template__currency_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_scrap_order__currency_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_scrap_order_line__currency_id
+msgid "Currency"
+msgstr "Moeda"
+
+#. module: tk_construction_management
+#: model:ir.ui.menu,name:tk_construction_management.menu_customer
+msgid "Customer"
+msgstr "Cliente"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_search_view
+msgid "Customer / Company"
+msgstr "Cliente / Empresa"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_catalog__document_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_certificate__document_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_document_line__date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_equipment__date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_expense__date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_inspection__date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_labour_line__date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_risk__date
+#: model:ir.model.fields,field_description:tk_construction_management.field_engineer_invoice_line__date
+#: model:ir.model.fields,field_description:tk_construction_management.field_product_product__date
+#: model:ir.model.fields,field_description:tk_construction_management.field_product_template__date
+#: model:ir.model.fields,field_description:tk_construction_management.field_scrap_order__date
+#: model:ir.model.fields,field_description:tk_construction_management.field_site_inspection__date
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "Date"
+msgstr "Data"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_inspection__deadline
+#: model:ir.model.fields,field_description:tk_construction_management.field_site_inspection__date_deadline
+msgid "Deadline"
+msgstr "Prazo final"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,help:tk_construction_management.field_construction_material_line__uom_id
+#: model:ir.model.fields,help:tk_construction_management.field_cost_material_line__uom_id
+msgid ""
+"Default unit of measure used for purchase orders. It must be in the same "
+"category as the default unit of measure."
+msgstr ""
+"Unidade de medida padrão usada para pedidos de compra. Deve estar na mesma "
+"categoria da unidade de medida padrão."
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_form_view
+msgid "Delivery"
+msgstr "Entrega"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__delivery_order_id
+msgid "Delivery Order"
+msgstr "Pedido de entrega"
+
+#. module: tk_construction_management
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__construction_equipment_line__cost_type__depreciation_cost
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__cost_equipment_line__cost_type__depreciation_cost
+msgid "Depreciation Cost"
+msgstr "Custo de depreciação"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__desc
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_equipment_line__desc
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_inspection__desc
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_site__desc
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_equipment_line__desc
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing__desc
+#: model:ir.model.fields,field_description:tk_construction_management.field_policy_risk__desc
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_inspection_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.job_costing_form_view
+msgid "Description"
+msgstr "Descrição"
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_construction_amenities
+msgid "Details About Construction Amenities"
+msgstr "Detalhes sobre comodidades de construção"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_account_move__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_calendar_event__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_amenities__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_catalog__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_certificate__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_dashboard__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_document_line__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_employee__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_engineer_line__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_equipment__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_equipment_line__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_expense__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_images__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_inspection__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_job__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_labour_line__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_material_line__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_risk__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_site__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_employee_line__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_equipment_line__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_material_line__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_document_template__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_document_template_line__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_document_type__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_engineer_invoice_line__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_hr_employee__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_policy_risk__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_product_template__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_project_project__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_project_task__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_project_task_type__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_purchase_order__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_res_partner__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_scrap_order__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_scrap_order_line__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_site_inspection__display_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_site_type__display_name
+msgid "Display Name"
+msgstr "Nome exibido"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__document_ids
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_document_line__document
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_catalog_tree_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_certificate_tree_view
+msgid "Document"
+msgstr "Documento"
+
+#. module: tk_construction_management
+#: model:ir.actions.act_window,name:tk_construction_management.document_template_action
+#: model:ir.model,name:tk_construction_management.model_document_template
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__document_template_id
+#: model:ir.ui.menu,name:tk_construction_management.menu_document_template
+msgid "Document Template"
+msgstr "Modelo de documento"
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_document_template_line
+msgid "Document Template Line"
+msgstr "Linha de modelo de documento"
+
+#. module: tk_construction_management
+#: model:ir.actions.act_window,name:tk_construction_management.document_type_action
+#: model:ir.model,name:tk_construction_management.model_document_type
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_certificate__document_type
+#: model:ir.model.fields,field_description:tk_construction_management.field_document_template_line__document_type_id
+#: model:ir.ui.menu,name:tk_construction_management.menu_document_type
+msgid "Document Type"
+msgstr "tipo de documento"
+
+#. module: tk_construction_management
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__construction_details__stage__a_costing
+msgid "Document Verified"
+msgstr "Documento verificado"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_document_type__type
+msgid "Document for"
+msgstr "Documento para"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_catalog__document
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_certificate__document
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Documents"
+msgstr "Documentos"
+
+#. module: tk_construction_management
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__construction_document_line__state__draft
+msgid "Draft"
+msgstr "Rascunho"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_site__email
+msgid "Email"
+msgstr "E-mail"
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_hr_employee
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_engineer_line__employee_id
+msgid "Employee"
+msgstr "Funcionário"
+
+#. module: tk_construction_management
+#: model:ir.actions.act_window,name:tk_construction_management.construction_employee_action
+#: model:ir.ui.menu,name:tk_construction_management.menu_construction_employee_role
+msgid "Employee Role"
+msgstr "Função do Funcionário"
+
+#. module: tk_construction_management
+#: model:ir.ui.menu,name:tk_construction_management.menu_employee
+msgid "Employees"
+msgstr "Funcionários"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__end_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing__end_date
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "End Date"
+msgstr "Data final"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid ""
+"End Date\n"
+"                                            <br/>"
+msgstr ""
+"Data final\n"
+"                                            <br/>"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__eng_arc_bill_count
+msgid "Eng Arc Bill Count"
+msgstr "Contagem de contas do Eng Arc"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_engineer_line__eng_invoice_line_ids
+msgid "Eng Invoice Line"
+msgstr "Linha de Fatura Eng."
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing__eng_labour_ids
+msgid "Eng Labour"
+msgstr "Um trabalho"
+
+#. module: tk_construction_management
+#: model:ir.actions.act_window,name:tk_construction_management.employee_engineer_action
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__res_partner__employee_type__engineer
+#: model:ir.ui.menu,name:tk_construction_management.menu_construction_engineer
+msgid "Engineer"
+msgstr "Engenheiro"
+
+#. module: tk_construction_management
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__account_move__order_type__eng_arc
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Engineer & Architect"
+msgstr "Engenheiro e Arquiteto"
+
+#. module: tk_construction_management
+#: model:product.template,name:tk_construction_management.construction_product_2
+msgid "Engineer & Architect Payment"
+msgstr "Pagamento de Engenheiro e Arquiteto"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Engineer &amp; Architect Bill"
+msgstr ""
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Engineer Bill"
+msgstr "Projeto de lei do engenheiro"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Engineer Bill Total"
+msgstr "Total da conta do engenheiro"
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_engineer_invoice_line
+msgid "Engineer Invoices"
+msgstr "Faturas de engenheiro"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__construction_engineer_ids
+msgid "Engineers"
+msgstr "Engenheiros"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__equip_bill_count
+msgid "Equip Bill Count"
+msgstr "Contagem de contas de equipamento"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__equip_po_count
+msgid "Equip Po Count"
+msgstr "Equipar contagem de Po"
+
+#. module: tk_construction_management
+#: model:ir.actions.act_window,name:tk_construction_management.construction_equipment_action
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_equipment_line__equipment_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_equipment_line__equipment_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing__equipment_ids
+#: model:ir.model.fields,field_description:tk_construction_management.field_purchase_order__equipment_id
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__account_move__order_type__equipment
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__construction_risk__risk_type__equipment
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__purchase_order__order_type__equipment
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__scrap_order_line__scrap_type__equipment
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_job_costing_qweb_report
+msgid "Equipment"
+msgstr "Equipamento"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_employee_line__job_costing_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_equipment_line__job_costing_id
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_job_costing_qweb_report
+msgid "Equipment Costing"
+msgstr "Custeio de Equipamentos"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__equipment_delivery_order_count
+msgid "Equipment Delivery Order Count"
+msgstr "Contagem de pedidos de entrega de equipamentos"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Equipment Details"
+msgstr "Detalhes do equipamento"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Equipment Order"
+msgstr "Pedido de equipamento"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_kanban_view
+msgid "Equipment PO"
+msgstr "Pedido de equipamento"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Equipment Purchase Order"
+msgstr "Ordem de compra de equipamentos"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Equipment Purchase Order Total"
+msgstr "Total do pedido de compra de equipamentos"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing__equipment_total
+msgid "Equipment Total"
+msgstr "Total de equipamentos"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__equipment_ids
+#: model:ir.ui.menu,name:tk_construction_management.menu_construction_equipment
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.job_costing_form_view
+msgid "Equipments"
+msgstr "Equipamentos"
+
+#. module: tk_construction_management
+#: model:product.template,name:tk_construction_management.escora_de_madeira_5_x_10_cm_bruto
+msgid "Escora de madeira 5 x 10 cm bruto"
+msgstr "Escora de madeira 5 x 10 cm bruto"
+
+#. module: tk_construction_management
+#: model:product.template,name:tk_construction_management.espacadore_de_ferragem
+msgid "Espaçadores de ferragem"
+msgstr "Espaçadores de ferragem"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__estimate_cost
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_job_costing_qweb_report
+msgid "Estimate Budget"
+msgstr "Estimar orçamento"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing__estimate_cost
+msgid "Estimate Cost"
+msgstr "Custo estimado"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.job_costing_form_view
+msgid ""
+"Estimate Cost is Combined of Material, Equipment, Labours &amp;\n"
+"                                                Employees and Cost of Construction"
+msgstr ""
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_job_costing_qweb_report
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.job_costing_form_view
+msgid "Estimate Time"
+msgstr "Tempo estimado"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_equipment_line__cost
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_equipment_line__cost
+msgid "Estimation Cost"
+msgstr "Custo de estimativa"
+
+#. module: tk_construction_management
+#: model:ir.actions.act_window,name:tk_construction_management.construction_expense_action
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__construction_expense_ids
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_expense__expense_product_id
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__account_move__order_type__expense
+#: model:ir.ui.menu,name:tk_construction_management.menu_construction_expense
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "Expense"
+msgstr "Despesa"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Expense Bill"
+msgstr "Conta de despesas"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__expense_bill_count
+msgid "Expense Bill Count"
+msgstr "Contagem de contas de despesas"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Expense Bill Total"
+msgstr "Total da conta de despesas"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Extra Expense"
+msgstr "Despesa Extra"
+
+#. module: tk_construction_management
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__construction_document_line__state__failed
+msgid "Fail"
+msgstr "Falhar"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Failed"
+msgstr "Fracassado"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_catalog__file_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_certificate__file_name
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_document_line__file_name
+msgid "File Name"
+msgstr "Nome do arquivo"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Seguidores (canais)"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Seguidores (parceiros)"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,help:tk_construction_management.field_construction_details__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Ícone incrível da fonte, por exemplo. tarefas fa"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_account_move__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_calendar_event__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_amenities__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_catalog__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_certificate__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_dashboard__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_document_line__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_employee__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_engineer_line__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_equipment__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_equipment_line__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_expense__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_images__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_inspection__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_job__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_labour_line__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_material_line__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_risk__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_site__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_employee_line__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_equipment_line__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_material_line__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_document_template__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_document_template_line__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_document_type__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_engineer_invoice_line__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_hr_employee__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_policy_risk__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_product_template__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_project_project__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_project_task__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_project_task_type__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_purchase_order__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_res_partner__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_scrap_order__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_scrap_order_line__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_site_inspection__id
+#: model:ir.model.fields,field_description:tk_construction_management.field_site_type__id
+msgid "ID"
+msgstr "EU IA"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__activity_exception_icon
+msgid "Icon"
+msgstr "Ícone"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,help:tk_construction_management.field_construction_details__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Ícone para indicar uma atividade de exceção."
+
+#. module: tk_construction_management
+#: model:ir.model.fields,help:tk_construction_management.field_construction_details__message_needaction
+#: model:ir.model.fields,help:tk_construction_management.field_construction_details__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "Se marcada, novas mensagens requerem sua atenção."
+
+#. module: tk_construction_management
+#: model:ir.model.fields,help:tk_construction_management.field_construction_details__message_has_error
+#: model:ir.model.fields,help:tk_construction_management.field_construction_details__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Se marcada, algumas mensagens apresentam um erro de entrega."
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_amenities__image
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_engineer_line__image_1920
+msgid "Image"
+msgstr "Imagem"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_images__image
+msgid "Images"
+msgstr "Imagens"
+
+#. module: tk_construction_management
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__construction_details__stage__in_progress
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__construction_document_line__state__in_progress
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "In Progress"
+msgstr "Em andamento"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_project_task__is_inspection_task
+msgid "Inspection Task"
+msgstr "Tarefa de Inspeção"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Insurance & Risk Management"
+msgstr "Seguros e Gestão de Riscos"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Insurance Bill"
+msgstr "Conta de seguro"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Insurance Bill Total"
+msgstr "Total da conta de seguro"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Insurance Details"
+msgstr "Detalhes do seguro"
+
+#. module: tk_construction_management
+#: model:ir.actions.act_window,name:tk_construction_management.construction_insurance_risk_action
+#: model:ir.ui.menu,name:tk_construction_management.menu_construction_insurance_risk
+msgid "Insurance Risk"
+msgstr "Risco de Seguro"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_risk__term
+msgid "Insurance Terms"
+msgstr "Termos de seguro"
+
+#. module: tk_construction_management
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__construction_equipment_line__cost_type__investment_cost
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__cost_equipment_line__cost_type__investment_cost
+msgid "Investment/Interest Cost"
+msgstr "Custo de investimento/juros"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_risk__insurance_invoice_id
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_form_view
+msgid "Invoice"
+msgstr "Fatura"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_engineer_line__invoice_paid_status
+msgid "Invoice Paid Status"
+msgstr "Status de fatura paga"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_res_partner__is_builder
+#: model:ir.model.fields,field_description:tk_construction_management.field_res_users__is_builder
+msgid "Is Builder"
+msgstr "É Construtor"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_res_partner__is_construction_company
+#: model:ir.model.fields,field_description:tk_construction_management.field_res_users__is_construction_company
+msgid "Is Construction Company"
+msgstr "É uma empresa de construção"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_product_product__is_equipment
+#: model:ir.model.fields,field_description:tk_construction_management.field_product_template__is_equipment
+msgid "Is Equipment"
+msgstr "É equipamento"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_product_product__is_expense_product
+#: model:ir.model.fields,field_description:tk_construction_management.field_product_template__is_expense_product
+msgid "Is Expense"
+msgstr "É despesa"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__message_is_follower
+msgid "Is Follower"
+msgstr "É seguidor"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_risk__is_insurance
+msgid "Is Insurance"
+msgstr "É seguro"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_product_product__is_material
+#: model:ir.model.fields,field_description:tk_construction_management.field_product_template__is_material
+msgid "Is Material"
+msgstr "É material"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__is_negative_remaining
+msgid "Is Negative Remaining"
+msgstr "É negativo restante"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_risk__insurance_date
+msgid "Issue Date"
+msgstr "Data de emissão"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_risk__issue_by
+msgid "Issued By"
+msgstr "Emitida pela"
+
+#. module: tk_construction_management
+#: model:ir.actions.act_window,name:tk_construction_management.job_costing_action
+#: model:ir.actions.report,name:tk_construction_management.construction_job_costing_report_id
+#: model:ir.model,name:tk_construction_management.model_job_costing
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__job_costing_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_site__job_costing_id
+#: model:ir.ui.menu,name:tk_construction_management.menu_job_costing
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_search_view
+msgid "Job Costing"
+msgstr "Custeio do Trabalho"
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_cost_employee_line
+msgid "Job Costing Employee Line"
+msgstr "Linha de Funcionário de Custo de Trabalho"
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_cost_equipment_line
+msgid "Job Costing Equipment Line"
+msgstr "Linha de equipamentos de custeio de trabalho"
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_cost_material_line
+msgid "Job Costing Material Line"
+msgstr "Linha de materiais de custo de trabalho"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing__job_order_id
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__construction_details__stage__confirm
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__document_type__type__job_order
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__job_costing__state__job_order
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_job_costing_qweb_report
+msgid "Job Order"
+msgstr "Ordem de trabalho"
+
+#. module: tk_construction_management
+#: model:ir.actions.act_window,name:tk_construction_management.job_type_action
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_equipment__job_type_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_job__name
+#: model:ir.model.fields,field_description:tk_construction_management.field_product_product__job_type_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_product_template__job_type_id
+#: model:ir.ui.menu,name:tk_construction_management.menu_job_type
+msgid "Job Type"
+msgstr "Tipo de emprego"
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_account_move
+msgid "Journal Entry"
+msgstr "Lançamento de Diário"
+
+#. module: tk_construction_management
+#: model:product.template,name:tk_construction_management.construction_product_1
+msgid "Labour & Construction Payment"
+msgstr "Pagamento de mão de obra e construção"
+
+#. module: tk_construction_management
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__account_move__order_type__labour
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Labour Bill"
+msgstr "Projeto de Lei Trabalhista"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__labour_bill_count
+msgid "Labour Bill Count"
+msgstr "Contagem de contas trabalhistas"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Labour Bill Total"
+msgstr "Total da conta trabalhista"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_labour_line__labour_responsible_id
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "Labour Responsible"
+msgstr "Responsável Trabalhista"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing__eng_labour_total
+msgid "Labour Total"
+msgstr "Total de mão de obra"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__construction_labours_ids
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_labour_line__labours_ids
+#: model:ir.model.fields,field_description:tk_construction_management.field_project_task__labours_ids
+#: model:ir.ui.menu,name:tk_construction_management.menu_labours
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "Labours"
+msgstr "Trabalhos"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.job_costing_form_view
+msgid "Labours & Employees"
+msgstr "Trabalhos e Funcionários"
+
+#. module: tk_construction_management
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__construction_risk__risk_type__labours
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Labours & Workers"
+msgstr "Trabalhos e Trabalhadores"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_job_costing_qweb_report
+msgid "Labours &amp; Employee Costing"
+msgstr ""
+
+#. module: tk_construction_management
+#: model:product.template,name:tk_construction_management.laje_treilicada_para_forro_h8_isopor_eps
+msgid "Laje Treliçada para Forro H8 Isopor EPS"
+msgstr "Laje Treliçada para Forro H8 Isopor EPS"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_account_move____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_calendar_event____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_amenities____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_catalog____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_certificate____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_dashboard____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_document_line____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_employee____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_engineer_line____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_equipment____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_equipment_line____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_expense____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_images____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_inspection____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_job____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_labour_line____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_material_line____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_risk____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_site____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_employee_line____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_equipment_line____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_material_line____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_document_template____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_document_template_line____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_document_type____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_engineer_invoice_line____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_hr_employee____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_policy_risk____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_product_template____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_project_project____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_project_task____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_project_task_type____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_purchase_order____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_res_partner____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_scrap_order____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_scrap_order_line____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_site_inspection____last_update
+#: model:ir.model.fields,field_description:tk_construction_management.field_site_type____last_update
+msgid "Last Modified on"
+msgstr "Última modificação em"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_amenities__write_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_catalog__write_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_certificate__write_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_dashboard__write_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__write_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_document_line__write_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_employee__write_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_engineer_line__write_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_equipment__write_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_equipment_line__write_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_expense__write_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_images__write_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_inspection__write_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_job__write_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_labour_line__write_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_material_line__write_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_risk__write_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_site__write_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_employee_line__write_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_equipment_line__write_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_material_line__write_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_document_template__write_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_document_template_line__write_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_document_type__write_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_engineer_invoice_line__write_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing__write_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_policy_risk__write_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_scrap_order__write_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_scrap_order_line__write_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_site_inspection__write_uid
+#: model:ir.model.fields,field_description:tk_construction_management.field_site_type__write_uid
+msgid "Last Updated by"
+msgstr "Última atualização por"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_amenities__write_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_catalog__write_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_certificate__write_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_dashboard__write_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__write_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_document_line__write_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_employee__write_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_engineer_line__write_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_equipment__write_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_equipment_line__write_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_expense__write_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_images__write_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_inspection__write_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_job__write_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_labour_line__write_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_material_line__write_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_risk__write_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_site__write_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_employee_line__write_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_equipment_line__write_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_material_line__write_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_document_template__write_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_document_template_line__write_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_document_type__write_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_engineer_invoice_line__write_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing__write_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_policy_risk__write_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_scrap_order__write_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_scrap_order_line__write_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_site_inspection__write_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_site_type__write_date
+msgid "Last Updated on"
+msgstr "Última atualização em"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__latitude
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_site__latitude
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing__latitude
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.job_costing_form_view
+msgid "Latitude"
+msgstr "Latitude"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_job_costing_qweb_report
+msgid "Latitude :"
+msgstr "Latitude :"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_site__licence
+msgid "Licence No."
+msgstr "Licença nº."
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_form_view
+msgid "Logo"
+msgstr "Logotipo"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__longitude
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_site__longitude
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing__longitude
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.job_costing_form_view
+msgid "Longitude"
+msgstr "Longitude"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_job_costing_qweb_report
+msgid "Longitude :"
+msgstr "Longitude:"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Anexo Principal"
+
+#. module: tk_construction_management
+#: model:ir.actions.act_window,name:tk_construction_management.employee_manager_action
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__res_partner__employee_type__manager
+#: model:ir.ui.menu,name:tk_construction_management.menu_construction_manager
+msgid "Manager"
+msgstr "Gerente"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_form_view
+msgid "Map Location"
+msgstr "Localização do mapa"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_site__project_id
+msgid "Mapeamento de Projeto"
+msgstr "Mapeamento de Projeto"
+
+#. module: tk_construction_management
+#: model:ir.actions.act_window,name:tk_construction_management.construction_material_action
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__material_ids
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_material_line__material_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_material_line__material_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing__material_ids
+#: model:ir.model.fields,field_description:tk_construction_management.field_product_product__construction_material_ids
+#: model:ir.model.fields,field_description:tk_construction_management.field_product_template__construction_material_ids
+#: model:ir.model.fields,field_description:tk_construction_management.field_purchase_order__material_id
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__account_move__order_type__material
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__construction_risk__risk_type__material
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__purchase_order__order_type__material
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__scrap_order_line__scrap_type__material
+#: model:ir.ui.menu,name:tk_construction_management.menu_construction_material
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_job_costing_qweb_report
+msgid "Material"
+msgstr "Material"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__material_bill_count
+msgid "Material Bill Count"
+msgstr "Contagem de faturas de materiais"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_job_costing_qweb_report
+msgid "Material Costing"
+msgstr "Custeio de Materiais"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__material_delivery_order_count
+msgid "Material Delivery Order Count"
+msgstr "Contagem de pedidos de entrega de material"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Material Details"
+msgstr "Detalhes do material"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Material Order"
+msgstr "Pedido de Materiais"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_kanban_view
+msgid "Material PO"
+msgstr "Pedido de material"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__material_po_count
+msgid "Material Po Count"
+msgstr "Contagem de materiais"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Material Purchase Order"
+msgstr "Ordem de compra de materiais"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Material Purchase Order Total"
+msgstr "Total do pedido de compra de material"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing__material_total
+msgid "Material Total"
+msgstr "Total de materiais"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.job_costing_form_view
+msgid "Materials"
+msgstr "Materiais"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__meeting_count
+msgid "Meeting Count"
+msgstr "Contagem de reuniões"
+
+#. module: tk_construction_management
+#: model:ir.ui.menu,name:tk_construction_management.menu_construction_meeting
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_kanban_view
+msgid "Meetings"
+msgstr "Encontros"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__message_has_error
+msgid "Message Delivery error"
+msgstr "Erro na entrega de mensagens"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__message_ids
+msgid "Messages"
+msgstr "Mensagens"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_form_view
+msgid "Mobile:"
+msgstr "Móvel:"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Prazo da minha atividade"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_site_type__name
+msgid "Name"
+msgstr "Nome"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid ""
+"Name\n"
+"                                            <br/>"
+msgstr ""
+"Nome\n"
+"                                            <br/>"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Prazo da próxima atividade"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__activity_summary
+msgid "Next Activity Summary"
+msgstr "Resumo da próxima atividade"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__activity_type_id
+msgid "Next Activity Type"
+msgstr "Próximo tipo de atividade"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_employee_line__no_of_person
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_job_costing_qweb_report
+msgid "No of People"
+msgstr "Não de pessoas"
+
+#. module: tk_construction_management
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__construction_engineer_line__invoice_paid_status__not_paid
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Not Paid"
+msgstr "Não pago"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_engineer_line__note
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_expense__note
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_risk__note
+#: model:ir.model.fields,field_description:tk_construction_management.field_scrap_order__note
+#: model:ir.model.fields,field_description:tk_construction_management.field_site_inspection__note
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "Note"
+msgstr "Observação"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid ""
+"Note : When using the \"All Bill\" mode in accounting, the system will show the\n"
+"                                        details of the actual amount spent on a project and compare it to the estimated\n"
+"                                        budget for that project. This information can be useful for reference and\n"
+"                                        evaluation of project performance. when using the \"Paid\" mode in accounting, the\n"
+"                                        system will display the status of the bill and the associated order, along with\n"
+"                                        details of how much has already been paid and how much is still outstanding.\n"
+"                                        This mode helps in keeping track of payments and ensures timely payment of\n"
+"                                        bills."
+msgstr ""
+"Nota: Ao utilizar o modo “Todas as faturas” na contabilidade, o sistema mostrará o\n"
+"                                        detalhes do valor real gasto em um projeto e compará-lo com o valor estimado\n"
+"                                        orçamento para esse projeto. Esta informação pode ser útil para referência e\n"
+"                                        avaliação do desempenho do projeto. ao usar o modo \"Pago\" na contabilidade, o\n"
+"                                        sistema exibirá o status da fatura e do pedido associado, juntamente com\n"
+"                                        detalhes de quanto já foi pago e quanto ainda está pendente.\n"
+"                                        Este modo ajuda a controlar os pagamentos e garante o pagamento pontual de\n"
+"                                        contas."
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Notes"
+msgstr "Notas"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.job_costing_form_view
+msgid "Notes."
+msgstr "Notas."
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Número de ações"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__message_has_error_counter
+msgid "Number of errors"
+msgstr "Número de erros"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,help:tk_construction_management.field_construction_details__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Número de mensagens que requerem uma ação"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,help:tk_construction_management.field_construction_details__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Número de mensagens com erro de entrega"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,help:tk_construction_management.field_construction_details__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Número de mensagens não lidas"
+
+#. module: tk_construction_management
+#: model:ir.model.constraint,message:tk_construction_management.constraint_scrap_order_unique_construction_id
+msgid "Only one Scrape Order is Valid for One Construction Project"
+msgstr "Apenas um pedido de raspagem é válido para um projeto de construção"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_purchase_order__order_type
+msgid "Order Type"
+msgstr "Tipo de pedido"
+
+#. module: tk_construction_management
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__construction_equipment_line__cost_type__other
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__construction_risk__risk_type__other
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__cost_equipment_line__cost_type__other
+msgid "Other"
+msgstr "Outro"
+
+#. module: tk_construction_management
+#: model:ir.actions.act_window,name:tk_construction_management.construction_builder_action
+#: model:ir.actions.act_window,name:tk_construction_management.construction_customer_company_action
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_site__owners_ids
+#: model:ir.ui.menu,name:tk_construction_management.menu_owners
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_form_view
+msgid "Owners"
+msgstr "os Proprietários"
+
+#. module: tk_construction_management
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__construction_details__accountancy_type__paid
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__construction_engineer_line__invoice_paid_status__paid
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Paid"
+msgstr "Pago"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_expense__payment_state
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_labour_line__payment_state
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_risk__payment_state
+#: model:ir.model.fields,field_description:tk_construction_management.field_engineer_invoice_line__payment_state
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "Payment Status"
+msgstr "Status do pagamento"
+
+#. module: tk_construction_management
+#: model:product.template,name:tk_construction_management.pedra_brita_01
+msgid "Pedra Brita 1"
+msgstr "Pedra Brita 1"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_site__phone
+msgid "Phone"
+msgstr "Telefone"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_form_view
+msgid "Phone:"
+msgstr "Telefone:"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__zip
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_site__zip
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing__zip
+msgid "Pin Code"
+msgstr "Código PIN"
+
+#. module: tk_construction_management
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__job_costing__state__planning
+msgid "Planning"
+msgstr "Planejamento"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_risk__policy_added
+msgid "Policy Added"
+msgstr "Política adicionada"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_risk__policy_name
+msgid "Policy Name"
+msgstr "Nome da política"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_risk__policy_no
+msgid "Policy No."
+msgstr "Política nº."
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_policy_risk
+msgid "Policy Risk Details"
+msgstr "Detalhes de risco de política"
+
+#. module: tk_construction_management
+#: model:product.template,name:tk_construction_management.prego_aço_polido_com_cabeça_17_x_27
+msgid "Prego aço polido c/ cabeça 17 x 27"
+msgstr "Prego aço polido c/ cabeça 17 x 27"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,help:tk_construction_management.field_construction_material_line__cost
+#: model:ir.model.fields,help:tk_construction_management.field_cost_material_line__cost
+msgid "Price at which the product is sold to customers."
+msgstr "Preço pelo qual o produto é vendido aos clientes."
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_scrap_order_line__product_id
+msgid "Product"
+msgstr "produtos"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__profit_margin
+msgid "Profit/Loss"
+msgstr "Perda de lucro"
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_project_project
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__site_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_site__name
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__construction_risk__risk_type__project
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__document_type__type__project
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_search_view
+msgid "Project"
+msgstr "Projeto"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__project_id
+msgid "Project "
+msgstr "Projeto"
+
+#. module: tk_construction_management
+#: model:ir.actions.report,name:tk_construction_management.construction_site_details_report_id
+msgid "Project Details"
+msgstr "Detalhes do Projeto"
+
+#. module: tk_construction_management
+#: model:ir.actions.act_window,name:tk_construction_management.construction_project_action
+msgid "Projects"
+msgstr "Projetos"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_catalog__construction_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_certificate__construction_id
+msgid "Property Name"
+msgstr "Nome da propriedade"
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_purchase_order
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_equipment__equipment_po_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_product_product__material_po_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_product_template__material_po_id
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "Purchase Order"
+msgstr "Pedido de Compra"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_equipment_line__qty
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_material_line__qty
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_equipment_line__qty
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_material_line__qty
+#: model:ir.model.fields,field_description:tk_construction_management.field_scrap_order_line__qty
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_job_costing_qweb_report
+msgid "Qty."
+msgstr "Quantidade."
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Remain Amount(from Budget)"
+msgstr "Valor restante (do orçamento)"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Remaining"
+msgstr "Restante"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__remaining_budget_amount
+msgid "Remaining Budget Amount"
+msgstr "Valor restante do orçamento"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__remaining_engineer_bill_amount
+msgid "Remaining Engineer Bill Amount"
+msgstr "Valor restante da fatura do engenheiro"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__remaining_equipment_po_amount
+msgid "Remaining Equipment Po Amount"
+msgstr "Valor restante do Po do equipamento"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__remaining_extra_expense_amount
+msgid "Remaining Extra Expense Amount"
+msgstr "Valor restante da despesa extra"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__remaining_insurance_amount
+msgid "Remaining Insurance Amount"
+msgstr "Valor restante do seguro"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__remaining_labour_bill_amount
+msgid "Remaining Labour Bill Amount"
+msgstr "Valor restante da conta trabalhista"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__remaining_material_po_amount
+msgid "Remaining Material Po Amount"
+msgstr "Valor restante do pedido de material"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__remaining_to_pay
+msgid "Remaining To Pay"
+msgstr "Restante para pagar"
+
+#. module: tk_construction_management
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__construction_equipment_line__cost_type__rent
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__cost_equipment_line__cost_type__rent
+msgid "Rent"
+msgstr "Aluguel"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Responsible"
+msgstr "Responsável"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__activity_user_id
+msgid "Responsible User"
+msgstr "Usuário Responsável"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__risk_ids
+msgid "Risk"
+msgstr "Risco"
+
+#. module: tk_construction_management
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__account_move__order_type__insurance
+msgid "Risk & Insurance"
+msgstr "Risco e Seguro"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_risk__risk_ids
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Risk Covered"
+msgstr "Risco Coberto"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_risk__risk_type
+msgid "Risk for"
+msgstr "Risco para"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_document_line__role_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_engineer_line__role_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_employee_line__role_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_res_partner__role_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_res_users__role_id
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_job_costing_qweb_report
+msgid "Role"
+msgstr "Papel"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "Erro de entrega de SMS"
+
+#. module: tk_construction_management
+#: model:product.template,name:tk_construction_management.sarrafo_madeira_2_3_x_10_cm_bruto
+msgid "Sarrafo madeira 2,3 x 10 cm bruto"
+msgstr "Sarrafo madeira 2,3 x 10 cm bruto"
+
+#. module: tk_construction_management
+#: model:ir.actions.act_window,name:tk_construction_management.scrap_order_action
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__scrap_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_scrap_order_line__scrap_order_id
+#: model:ir.ui.menu,name:tk_construction_management.menu_scrap_order
+msgid "Scrap Order"
+msgstr "Pedido de sucata"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.scrap_order_form_view
+msgid "Scrap Order Details"
+msgstr "Detalhes do pedido de sucata"
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_scrap_order_line
+#: model:ir.model.fields,field_description:tk_construction_management.field_scrap_order__scrap_order_line_ids
+msgid "Scrap Order Line"
+msgstr "Linha de pedido de sucata"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Scrap Order Total"
+msgstr "Total do pedido de sucata"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_scrap_order_line__scrap_type
+msgid "Scrap of"
+msgstr "Sucata de"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__name
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing__name
+#: model:ir.model.fields,field_description:tk_construction_management.field_scrap_order__name
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_search_view
+msgid "Sequence"
+msgstr "Seqüência"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_images__site_id
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_search_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_job_costing_qweb_report
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.job_costing_search_view
+msgid "Site"
+msgstr "Site"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_form_view
+msgid "Site Description"
+msgstr "Descrição do Site"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_site__site_image_ids
+msgid "Site Image"
+msgstr "Imagem do site"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Site Inspection"
+msgstr "Inspeção de site"
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_site_inspection
+msgid "Site Inspection of Construction Project"
+msgstr "Inspeção do Local do Projeto de Construção"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_form_view
+msgid "Site Map"
+msgstr "Mapa do site"
+
+#. module: tk_construction_management
+#: model:ir.actions.act_window,name:tk_construction_management.site_type_action
+#: model:ir.model,name:tk_construction_management.model_site_type
+#: model:ir.ui.menu,name:tk_construction_management.menu_site_type
+msgid "Site Type"
+msgstr "Tipo de site"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_kanban_view
+msgid "Sqft."
+msgstr "Pés quadrados."
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__stage
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing__state
+msgid "Stage"
+msgstr "Estágio"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Start Construction"
+msgstr "Iniciar construção"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__start_date
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing__start_date
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "Start Date"
+msgstr "Data de início"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid ""
+"Start Date\n"
+"                                            <br/>"
+msgstr ""
+"Data de início\n"
+"                                            <br/>"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__state_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_equipment__state
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_site__state_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing__state_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_product_product__state
+#: model:ir.model.fields,field_description:tk_construction_management.field_product_template__state
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_search_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.job_costing_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.job_costing_search_view
+msgid "State"
+msgstr "Estado"
+
+#. module: tk_construction_management
+#: model:ir.ui.menu,name:tk_construction_management.menu_construction_dashboard
+msgid "Statistics"
+msgstr "Estatisticas"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_document_line__state
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "Status"
+msgstr "Status"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,help:tk_construction_management.field_construction_details__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Status baseado em atividades\n"
+"Atrasado: a data de vencimento já passou\n"
+"Hoje: a data da atividade é hoje\n"
+"Planejado: Atividades futuras."
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.job_costing_form_view
+msgid "Street 2..."
+msgstr "Rua # 2..."
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.job_costing_form_view
+msgid "Street..."
+msgstr "Rua..."
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__street
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_site__street
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing__street
+msgid "Street1"
+msgstr "Rua 1"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__street2
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_site__street2
+#: model:ir.model.fields,field_description:tk_construction_management.field_job_costing__street2
+msgid "Street2"
+msgstr "Rua # 2"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_document_line__submit_employee_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_document_template_line__role_id
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "Submitted By"
+msgstr "Enviado por"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_site__task_ids
+msgid "Tarefas do Projeto"
+msgstr "Tarefas do Projeto"
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_project_task
+#: model:ir.model.fields,field_description:tk_construction_management.field_site_inspection__task_id
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_kanban_view
+msgid "Task"
+msgstr "Tarefa"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__task_count
+msgid "Task Count"
+msgstr "Contagem de tarefas"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "Task Details"
+msgstr "Detalhes da tarefa"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid ""
+"Task Name\n"
+"                                            <br/>"
+msgstr ""
+"Nome da tarefa\n"
+"                                            <br/>"
+
+#. module: tk_construction_management
+#: model:ir.model,name:tk_construction_management.model_project_task_type
+msgid "Task Stage"
+msgstr "Estágio da tarefa"
+
+#. module: tk_construction_management
+#: model:ir.actions.act_window,name:tk_construction_management.project_task_stages_action
+#: model:ir.ui.menu,name:tk_construction_management.menu_task_stages
+msgid "Task Stages"
+msgstr "Estágios da tarefa"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Tasks"
+msgstr "Tarefas"
+
+#. module: tk_construction_management
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__construction_equipment_line__cost_type__tax
+#: model:ir.model.fields.selection,name:tk_construction_management.selection__cost_equipment_line__cost_type__tax
+msgid "Tax"
+msgstr "Imposto"
+
+#. module: tk_construction_management
+#: model:product.template,name:tk_construction_management.tela_aco_leve_3_4_mm_20_x_20_cm
+msgid "Tela de aço leve 3,4 mm, 20 x 20 cm"
+msgstr "Tela de aço leve 3,4 mm, 20 x 20 cm"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_document_template__document_template_line_ids
+#: model:ir.model.fields,field_description:tk_construction_management.field_document_template_line__template_id
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.document_template_form_view
+msgid "Template"
+msgstr "Modelo"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Terms & Conditions"
+msgstr "termos e Condições"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid ""
+"The remaining budget for a project will be determined by adding up all\n"
+"                                            bills, including material and equipment purchase orders, extra expenses,\n"
+"                                            insurance, labor, engineering and architect fees. This total will then be\n"
+"                                            subtracted from the original estimate budget. If there is a scrap order,\n"
+"                                            that amount will be added to the estimate budget. All expenses will be\n"
+"                                            considered under the \"All Bill\" accountancy method."
+msgstr ""
+"O orçamento restante de um projeto será determinado pela soma de todos\n"
+"                                            contas, incluindo pedidos de compra de materiais e equipamentos, despesas extras,\n"
+"                                            honorários de seguros, mão de obra, engenharia e arquiteto. Este total será então\n"
+"                                            subtraído do orçamento estimado original. Se houver um pedido de sucata,\n"
+"                                            esse valor será adicionado ao orçamento estimado. Todas as despesas serão\n"
+"                                            considerado no método contábil \"All Bill\"."
+
+#. module: tk_construction_management
+#: model:ir.actions.act_window,name:tk_construction_management.construction_timesheet_action
+#: model:ir.ui.menu,name:tk_construction_management.menu_construction_time_sheet
+msgid "Timesheets"
+msgstr "Quadros de horários"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_amenities__title
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_employee__name
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_equipment__name
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_images__title
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_inspection__name
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_labour_line__title
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_employee_line__name
+#: model:ir.model.fields,field_description:tk_construction_management.field_document_template__name
+#: model:ir.model.fields,field_description:tk_construction_management.field_document_type__name
+#: model:ir.model.fields,field_description:tk_construction_management.field_engineer_invoice_line__name
+#: model:ir.model.fields,field_description:tk_construction_management.field_policy_risk__name
+#: model:ir.model.fields,field_description:tk_construction_management.field_product_product__name
+#: model:ir.model.fields,field_description:tk_construction_management.field_product_template__name
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_amenities_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_job_costing_qweb_report
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.document_template_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.job_costing_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.scrap_order_form_view
+msgid "Title"
+msgstr "Título"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_scrap_order__total
+msgid "Total"
+msgstr "Total"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_risk__total_charge
+msgid "Total Charge"
+msgstr "Carga total"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__total_engineer_charges
+msgid "Total Charges"
+msgstr "Custos totais"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_equipment__total_equipment_cost
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_labour_line__total_labour_cost
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_material_line__total_cost
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_employee_line__total_cost
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_equipment_line__total_cost
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_material_line__total_cost
+#: model:ir.model.fields,field_description:tk_construction_management.field_product_product__total_material_cost
+#: model:ir.model.fields,field_description:tk_construction_management.field_product_template__total_material_cost
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_job_costing_qweb_report
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "Total Cost"
+msgstr "Custo total"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__total_engineer_bill_amount
+msgid "Total Engineer Bill"
+msgstr "Conta total do engenheiro"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__total_equipment_po_amount
+msgid "Total Equipment Purchase Order"
+msgstr "Pedido total de compra de equipamentos"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__total_extra_expense_amount
+msgid "Total Expense Bill"
+msgstr "Conta de despesas total"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__total_insurance_amount
+msgid "Total Insurance Bill"
+msgstr "Conta total de seguro"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__total_labour_bill_amount
+msgid "Total Labour Bill"
+msgstr "Conta Trabalhista Total"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__total_material_po_amount
+msgid "Total Material Purchase Order"
+msgstr "Pedido total de compra de material"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__total_scrap_order_amount
+msgid "Total Scrap Order"
+msgstr "Pedido total de sucata"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__total_to_pay
+msgid "Total To Pay"
+msgstr "Total a pagar"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_scrap_order_line__net_total
+msgid "Total Value"
+msgstr "Valor total"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_document_line__document_type
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_equipment_line__cost_type
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_site__site_type_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_equipment_line__cost_type
+#: model:ir.model.fields,field_description:tk_construction_management.field_res_partner__employee_type
+#: model:ir.model.fields,field_description:tk_construction_management.field_res_users__employee_type
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_job_costing_qweb_report
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_search_view
+msgid "Type"
+msgstr "Tipo"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,help:tk_construction_management.field_construction_details__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Tipo de atividade de exceção registrada."
+
+#. module: tk_construction_management
+#: model:product.template,name:tk_construction_management.tabua_madeira_2_3_x_30_cm_bruto
+msgid "Tábua madeira 2,3 x 30 cm bruto"
+msgstr "Tábua madeira 2,3 x 30 cm bruto"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_material_line__uom_id
+#: model:ir.model.fields,field_description:tk_construction_management.field_cost_material_line__uom_id
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_job_costing_qweb_report
+msgid "Unit of Measure"
+msgstr "Unidade de medida"
+
+#. module: tk_construction_management
+#: model:product.template,uom_name:tk_construction_management.construction_product_1
+#: model:product.template,uom_name:tk_construction_management.construction_product_2
+#: model:product.template,uom_name:tk_construction_management.construction_product_3
+#: model:product.template,uom_name:tk_construction_management.escora_de_madeira_5_x_10_cm_bruto
+#: model:product.template,uom_name:tk_construction_management.sarrafo_madeira_2_3_x_10_cm_bruto
+#: model:product.template,uom_name:tk_construction_management.tabua_madeira_2_3_x_30_cm_bruto
+#: model:product.template,uom_name:tk_construction_management.tela_aco_leve_3_4_mm_20_x_20_cm
+msgid "Units"
+msgstr "Unidades"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__message_unread
+msgid "Unread Messages"
+msgstr "Mensagens não lidas"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Contador de mensagens não lidas"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_site_inspection__user_id
+msgid "User"
+msgstr "Do utilizador"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_scrap_order_line__dep_cost
+msgid "Value"
+msgstr "Valor"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_site__tax
+msgid "Vat"
+msgstr "Cuba"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "Verify Document"
+msgstr "Verificar documento"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "View Delivery Order"
+msgstr "Ver pedido de entrega"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "View Equipment Bill"
+msgstr "Ver fatura do equipamento"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "View Equipment PO"
+msgstr "Ver PO do equipamento"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "View Expense Bill"
+msgstr "Ver fatura de despesas"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "View Labour Bill"
+msgstr "Ver Lei Trabalhista"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "View Material Bill"
+msgstr "Ver lista de materiais"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "View Material PO"
+msgstr "Ver pedido de material"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+msgid "View Task"
+msgstr "Ver tarefa"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_site__website
+msgid "Website"
+msgstr "Local na rede Internet"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,field_description:tk_construction_management.field_construction_details__website_message_ids
+msgid "Website Messages"
+msgstr "Mensagens do site"
+
+#. module: tk_construction_management
+#: model:ir.model.fields,help:tk_construction_management.field_construction_details__website_message_ids
+msgid "Website communication history"
+msgstr "Histórico de comunicação do site"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_details_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_form_view
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.job_costing_form_view
+msgid "ZIP"
+msgstr "fecho eclair"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_form_view
+msgid "abc@gmail.com"
+msgstr "abc@gmail.com"
+
+#. module: tk_construction_management
+#: model:product.template,uom_name:tk_construction_management.arame_recozido_bwg_18_1_24_mm
+#: model:product.template,uom_name:tk_construction_management.cimento_cp_03
+#: model:product.template,uom_name:tk_construction_management.espacadore_de_ferragem
+#: model:product.template,uom_name:tk_construction_management.prego_aço_polido_com_cabeça_17_x_27
+msgid "kg"
+msgstr "kg"
+
+#. module: tk_construction_management
+#: model:product.template,uom_name:tk_construction_management.areia_media
+#: model:product.template,uom_name:tk_construction_management.concreto_usinado_para_laje
+#: model:product.template,uom_name:tk_construction_management.pedra_brita_01
+msgid "m³"
+msgstr "m³"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_site_form_view
+msgid "vat"
+msgstr "cuba"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "➤ Documents Details"
+msgstr "➤ Detalhes dos documentos"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "➤ Equipment"
+msgstr "➤ Equipamento"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "➤ Extra Expense"
+msgstr "➤ Despesa Extra"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "➤ Insurance &amp; Risk Management"
+msgstr ""
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "➤ Labours &amp; Workers"
+msgstr ""
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "➤ Material"
+msgstr "➤ Materiais"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "➤ Project Details"
+msgstr "➤ Detalhes do Projeto"
+
+#. module: tk_construction_management
+#: model_terms:ir.ui.view,arch_db:tk_construction_management.construction_project_detail_qweb_report
+msgid "➤ Scrap Order -"
+msgstr "➤ Pedido de sucata -"
